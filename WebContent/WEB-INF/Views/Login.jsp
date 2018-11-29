@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>hello</h1>
+<h1>Invoice Manager</h1>
 <form:form method="post" action="save.html" modelAttribute="loginModel">
 <c:forEach items="${loginModel.vendorList}" var="vendor" varStatus="status">
 		<tr>
