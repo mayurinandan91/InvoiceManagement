@@ -8,11 +8,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Invoice Manager</h1>
+<h1>Invoice Manager1</h1>
 <form:form method="post" action="save.html" modelAttribute="loginModel">
 <c:forEach items="${loginModel.vendorList}" var="vendor" varStatus="status">
 		<tr>
-			<td align="center">${vendor}</td>
+			<td align="center">${vendor}:</td>
 			
 		</tr>
 	</c:forEach>
